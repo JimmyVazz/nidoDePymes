@@ -9,9 +9,8 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
-.letras{
-  color:#ffffff;
-}  
+a {
+  color: #00B7FF; }
 
 /* login */
 .login {
@@ -94,5 +93,8 @@ body {
 .login-form-wrapper .field-box .login-btn-group .forgot-link:hover {
   color: #444444;
   font-size: 0.85em; }
+
+.letras {
+  color: #ffffff; }
 
 /*# sourceMappingURL=style.css.map */
