@@ -1,0 +1,115 @@
+body {
+  margin: 10px;
+  font-family: Merriweather,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: rgb(62, 160, 199);
+   margin:0;
+height:100vh;
+background:
+linear-gradient(#297fca,#297fca) 0 0/50% 100% no-repeat,
+linear-gradient(to bottom left,transparent 49.8%,#297fca 50%)100% 100%/50.5% 100% no-repeat;
+   }
+
+.divhead {
+  background-color: rgb(255, 255, 255);
+  height: 10%;
+  width: 30%;
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  float: left;
+}
+
+.asesorias{
+  margin-top: 30px;
+}
+
+img {
+  height: 120px;
+  width: 300px;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+
+
+
+
+div .ases{
+  width: 220px;
+  height: 190px;
+  background-color: rgb(252, 252, 252);
+  float: left;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10%;
+  display: absolute;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.trigger {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #6a89ce;
+  transition: transform 0.15s cubic-bezier(0.4, 0.0, 1, 1), opacity 0.1s 0.1s, box-shadow 0.3s;
+  opacity: 1;
+  right: 50px;
+  bottom: 50px;
+  position: fixed;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.24);
+  z-index: 99999;  }
+  
+
+  .trigger:hover {
+      background: #6b7ca1;
+  }
+  
+
+div .ases:hover{
+  background-color: rgb(156, 161, 161);
+}
+
+@media only screen and (max-width: 915px) {
+  img {
+      height: 100px;
+      width: 200px;
+      margin-left: 30%;
+  margin-top: 50px;
+  }
+
+  .asesorias { 
+      margin-top: 70px;
+  }
+}
+
+
+@media only screen and (max-width: 670px) {
+  img {
+      height: 90px;
+      width: 160px;
+  margin-top: 50px;
+  margin-left: 10%;
+  }
+
+  .asesorias { 
+      margin-top: 100px;
+  }
+}
+
+.icon{ 
+    margin: 1px;
+    height: 60px;
+    width: AUTO;
+
+}
