@@ -93,32 +93,9 @@ a {
 .login-form-wrapper .field-box .login-btn-group .forgot-link:hover {
   color: #444444;
   font-size: 0.85em; }
-
-
-
-#letras {
-  color: #ffffff;
-}  
-
-.imagen{
-  margin: 1rem
-}
-
-
+  
+ #letras {
+   color: #ffffff;
+ } 
 
 /*# sourceMappingURL=style.css.map */
-
-.hero.is-success.is-fullheight{
-  background-color:#ffffff;
- 
-}
-
-
-
-
-
-
-
-
-
-
