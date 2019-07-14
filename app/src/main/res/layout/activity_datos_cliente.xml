@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".DatosCliente"
     android:background="#ffffff">
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -13,15 +14,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:srcCompat="@mipmap/logotext"
-                android:layout_margin="30dp"/>
+                android:layout_margin="10dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -30,42 +30,56 @@
                 android:gravity="center">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Conectando tu empresa con el futuro financiero!"
-                    android:textSize="30dp"
-                    android:gravity="center"
+                    android:text="Bienvenid@"
+                    android:textSize="25dp"
                     android:textStyle="bold"
-                    android:layout_margin="20dp"
+                    android:gravity="center"
                     android:textColor="@color/colorPrimaryDark"/>
 
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mostrar sus datos"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No. Cliente"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark" />
+
+                <EditText
+                    android:id="@+id/Cliente"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/borde_edit"
+                    android:inputType="number"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <Button
+                    android:id="@+id/Solicitar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:text="Solicitar"
+                    android:layout_gravity="center"
+                    android:background="@drawable/btn_reg"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/colorPrimaryDark"/>
+
+                <TextView
+                    android:id="@+id/Salida"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Capacitación, Red de Apoyo y Conexión Financiera"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:layout_margin="20dp"
-                    android:textColor="@color/colorPrimaryDark"/>
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark" />
 
-                <Button
-                    android:id="@+id/sin"
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:text="Tengo una idea de negocio"
-                    android:layout_gravity="center"
-                    android:layout_margin="40dp"
-                    android:background="@drawable/btn_reg"
-                    android:textColor="@color/colorPrimaryDark"/>
-
-                <Button
-                    android:id="@+id/con"
-                    android:layout_width="wrap_content"
-                    android:layout_height="60dp"
-                    android:text="Quiero potenciar mi negocio"
-                    android:layout_gravity="center"
-                    android:background="@drawable/btn_reg"
-                    android:textColor="@color/colorPrimaryDark"/>
 
             </LinearLayout>
 

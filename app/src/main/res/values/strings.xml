@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">nidoDePymes</string>
+    <string-array name="tipos">
+        <item>Seleccione...</item>
+        <item>Comercial</item>
+        <item>Industriall</item>
+        <item>Serviciosl</item>
+    </string-array>
 </resources>
+
