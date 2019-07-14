@@ -21,12 +21,10 @@ router.get('/home/emprendedores/', (req, res) => {
   res.render('homeEmpre')
 })
 
-router.get('/home/pymes/', (req, res) => {
-  res.render('datosCuenta')
+router.get('/home/pymes/', (req, res, next) =>{
+  res.render('homePyme')
 })
 
-router.get('/api/', (req, res, next) =>{
-  res.json({objetoFeik})
-})
+
 
 module.exports = router;
