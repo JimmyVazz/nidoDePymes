@@ -26,5 +26,9 @@ router.get('/home/pymes/', (req, res, next) =>{
 })
 
 
+router.get('/nosotros/', (req, res, next) =>{
+  res.render('nosotros')
+})
+
 
 module.exports = router;
